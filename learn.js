@@ -10,4 +10,7 @@ $('button').css('color','red');
 
 $('p').text('Naeem Hossen').css('color','red').css('fontSize','100px');
 
-$('button').html('<h4>hey this is naeem from united arab emirates </h4>').css('color','blue').css('marginTop','100px')
+$('button').html('<h4>hey this is naeem from united arab emirates </h4>').css('color','blue').css('marginTop','100px');
+
+$('img').attr('src');
+$('a').attr('href','https://bing.com');
