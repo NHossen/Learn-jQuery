@@ -46,6 +46,18 @@ $('button').click(function(){
 
 // Another option to add a event listeners //neeed to learn dom event and method
 
-$(document).on('mouseover',function(){
+$('p').on('mouseover',function(){
     $('p').css('color','green').text('Good Morning from NH');
 })
+
+// Adding button
+$('h1').before('<button class=explore>Explore More</button>')
+$('.explore').css('padding','10px').css('backgroundColor','red').css('border','none').css('color','white');
+
+// Hover efect by jQuery
+$('.explore').on('mouseover',function(){
+    $('.explore').css('background','blue')
+})
+
+// Remove button by jQuery
+// $('button').remove();
